@@ -1,0 +1,20 @@
+dir:
+    "../NGS_Analysis/PU_Seq"
+
+samples:
+    ["SRR17052913"]
+
+threads:
+    12
+
+hmm_thresh:
+    5
+
+hmm_winS:
+    15
+
+bin_size:
+    1000
+
+binlist: 
+    ["1", "10", "20", "50", "100", "250", "500", "1000"]
